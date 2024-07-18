@@ -46,7 +46,7 @@ const course = ({ course, setSelected }: any) => {
 				</Flex>
 				<div>{course.duration} Minutes</div>
 				<Flex align="center" gap={4}>
-					<Avatar size={16} icon={<UserOutlined />} />
+					<Avatar src={course.instructor.image} size={16} icon={<UserOutlined />} />
 					<div>{course.instructor.name}</div>
 				</Flex>
 				<Flex align="center" gap={4}>

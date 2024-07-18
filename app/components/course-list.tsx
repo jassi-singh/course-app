@@ -25,7 +25,7 @@ const CourseList = () => {
 				});
 		});
 		window.alert("Enrolled successfully");
-        getCourse()
+		getCourse();
 	};
 	const getCourse = async () => {
 		axios
